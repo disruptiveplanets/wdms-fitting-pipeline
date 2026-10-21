@@ -1,0 +1,56 @@
+# ── Model grids and external tables (large; see docs/DATA_REQUIREMENTS.md) ──
+/models/
+model_cache/
+*.fits
+*.fits.gz
+*.dk.dat.txt
+
+# ── Generated results ─────────────────────────────────────────────────────────
+/results*/
+/LC_SPEC*/
+ultranest*/
+*.npy
+*.npz
+*.vot
+*.vot.bad
+
+# ── Backups and scratch copies ────────────────────────────────────────────────
+Sauvegarde*/
+*copy.py
+*sauv.py
+*.bak
+*.orig
+*~
+
+# ── Python caches and environments ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+venv/
+env/
+.mplcache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Temporary and system files ────────────────────────────────────────────────
+.DS_Store
+Icon?
+*.tmp
+*.part
+*.log
+
+# ── Secrets and local configuration ───────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+.netrc
+credentials*
+secrets*
+.claude/
+
+# ── Local pipeline results (normally under Downloads, never in the repo) ─────
+SED-dilution analysis/
+SED-dilution summaries*/

@@ -1,0 +1,22 @@
+# Python packages imported by the pipeline.
+# No version, Python release or operating system has been validated yet;
+# this list only records what the code imports. Installation instructions
+# will be added in a later stage.
+
+numpy>=2.0        # numpy.trapezoid is used, which exists only from NumPy 2.0
+scipy
+matplotlib
+pandas
+astropy
+astroquery
+ultranest
+certifi
+requests
+
+# Optional: composite figure (display.run_composite_figure)
+# pillow
+# pymupdf          # or: pdf2image (needs the poppler utilities)
+
+# Light-curve notebook (1_lightcurves_environment/Light_curves_analysis.ipynb) only
+# lightkurve
+# wotan
